@@ -19,8 +19,8 @@ public class SolutionTopDown {
    * Calculate ways to climb a certain amount of stairs, 
    * based on taking 1 or 2 stairs at a step.
    *
-   * This method applies the top down approach, also known as memoization, 
-   * of dynamic programming (not to be confused with 'memorization').
+   * This method applies a top-down approach of dynamic programming,
+   * also known as memoization (not to be confused with 'memorization').
    *
    * @return An integer, representing all alternatives to climb the stiars, as described.
    */
