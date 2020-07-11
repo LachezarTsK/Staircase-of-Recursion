@@ -1,10 +1,8 @@
-package JavaJava.staircase;
-
 import java.util.Scanner;
 
 public class SolutionTopDown {
 
-  /** Stores all possible alternatives to climb stairs from 0 to the input number. */
+  //Stores all possible alternatives to climb stairs from 0 to the input number.
   private static int[] waysToClimbStairs;
 
   public static void main(String[] args) {
@@ -18,10 +16,11 @@ public class SolutionTopDown {
   }
 
   /**
-   * Calculate ways to climb certain amount of stairs, based on taking 1 or 2 stairs at a step.
+   * Calculate ways to climb a certain amount of stairs, 
+   * based on taking 1 or 2 stairs at a step.
    *
-   * <p>This method applies the top down approach, also know als memoization, (not to be confused
-   * with 'memorization') of dynamic programming.
+   * This method applies the top down approach, also known als memoization, 
+   *(not to be confused with 'memorization') of dynamic programming.
    *
    * @return An integer, representing all alternatives to climb the stiars, as described.
    */
