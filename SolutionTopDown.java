@@ -20,7 +20,7 @@ public class SolutionTopDown {
    * based on taking 1 or 2 stairs at a step.
    *
    * This method applies the top down approach, also known als memoization, 
-   *(not to be confused with 'memorization') of dynamic programming.
+   * of dynamic programming (not to be confused with 'memorization').
    *
    * @return An integer, representing all alternatives to climb the stiars, as described.
    */
