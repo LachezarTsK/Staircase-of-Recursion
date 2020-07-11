@@ -22,8 +22,8 @@ public class SolutionBottomUp {
    * Calculate ways to climb certain amount of stairs, 
    * based on taking 1 or 2 stairs at a step.
    *
-   * This method applies the bottom up approach, also known as tabulization,
-   * of dynamic programming.
+   * This method applies a bottom-up approach of dynamic programming, 
+   * also known as tabulization,
    *
    * @return An integer, representing all alternatives to climb the stiars, as described.
    */
