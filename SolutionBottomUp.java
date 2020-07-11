@@ -4,6 +4,7 @@ public class SolutionBottomUp {
 
   // Stores all possible alternatives to climb stairs from 0 to the input number.
   private static int[] waysToClimbStairs;
+  
   // BASE_CASE_ONE and BASE_CASE_TWO represent number of stairs allowed to be taken at one step.
   private static final int BASE_CASE_ONE = 1;
   private static final int BASE_CASE_TWO = 2;
